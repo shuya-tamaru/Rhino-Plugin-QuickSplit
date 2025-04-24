@@ -5,6 +5,7 @@ QuickSplit is a Rhinoceros 8 (Windows) plugin that enables flexible surface trim
 
 ## System Requirements
 - Rhinoceros 8 (Windows)
+- May be compatible with Rhinoceros 7 (Windows) when built with .NET Framework 4.8
 
 ## How to Use
 1. Execute the "QuickSplit" command from the command palette
@@ -14,6 +15,3 @@ QuickSplit is a Rhinoceros 8 (Windows) plugin that enables flexible surface trim
   - Press Enter when point selection is complete
 4. A trimming curve will be automatically generated
 5. Unnecessary surface parts will be removed
-
-## For Rhino7
-[Rhino-Plugin-QuickSplit-ForRhino7](https://github.com/shuya-tamaru/Rhino-Plugin-QuickSplit-ForRhino7)
