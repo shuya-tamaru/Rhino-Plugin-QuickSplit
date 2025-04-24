@@ -5,7 +5,7 @@ using Rhino.Input;
 using System;
 using System.Collections.Generic;
 
-namespace QuickTrim
+namespace QuickSplit
 {
     public class SelectPointsInPlane
     {

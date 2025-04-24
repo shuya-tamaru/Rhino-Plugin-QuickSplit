@@ -5,7 +5,7 @@ using Rhino;
 using Rhino.DocObjects;
 using System;
 
-namespace QuickTrim
+namespace QuickSplit
 {
     public class SurfaceUtil
     {

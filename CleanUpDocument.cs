@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Rhino;
 using Rhino.DocObjects;
 
-namespace QuickTrim
+namespace QuickSplit
 {
     public class CleanUpDocument
     {

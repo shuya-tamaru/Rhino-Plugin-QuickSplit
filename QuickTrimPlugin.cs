@@ -1,7 +1,7 @@
 ﻿using System;
 using Rhino;
 
-namespace QuickTrim
+namespace QuickSplit
 {
     ///<summary>
     /// <para>Every RhinoCommon .rhp assembly must have one and only one PlugIn-derived
@@ -17,7 +17,7 @@ namespace QuickTrim
         {
             Instance = this;
         }
-        
+
         ///<summary>Gets the only instance of the QuickTrimPlugin plug-in.</summary>
         public static QuickTrimPlugin Instance { get; private set; }
 

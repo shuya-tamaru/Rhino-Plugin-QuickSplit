@@ -2,7 +2,7 @@
 using Rhino;
 using System;
 
-namespace QuickTrim
+namespace QuickSplit
 {
     public class SplitSurface
     {

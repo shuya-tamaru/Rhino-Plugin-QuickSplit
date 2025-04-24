@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	
+
   <PropertyGroup>
     <!-- Select the framework(s) you wish to target.
         Rhino 6: net45
@@ -12,17 +12,17 @@
     <TargetExt>.rhp</TargetExt>
     <NoWarn>NU1701</NoWarn>
   </PropertyGroup>
-  
+
   <PropertyGroup>
     <!-- Specifies information for Assembly and Yak -->
     <Version>1.0</Version>
-    <Title>QuickTrim</Title>
-    <Company>QuickTrim Authors</Company>
-    <Description>Description of QuickTrim</Description>
+    <Title>QuickSplit</Title>
+    <Company>QuickSplit Authors</Company>
+    <Description>Description of QuickSplit</Description>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="RhinoCommon" Version="8.0.23304.9001" ExcludeAssets="runtime" />
   </ItemGroup>
-  
+
 </Project>

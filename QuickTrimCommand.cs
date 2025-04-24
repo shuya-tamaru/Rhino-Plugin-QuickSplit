@@ -3,18 +3,18 @@ using Rhino;
 using Rhino.Commands;
 using Rhino.Geometry;
 
-namespace QuickTrim
+namespace QuickSplit
 {
-    public class QuickTrimCommand : Command
+    public class QuickSplitCommand : Command
     {
-        public QuickTrimCommand()
+        public QuickSplitCommand()
         {
             Instance = this;
         }
 
-        public static QuickTrimCommand Instance { get; private set; }
+        public static QuickSplitCommand Instance { get; private set; }
 
-        public override string EnglishName => "QuickTrim";
+        public override string EnglishName => "QuickSplit";
 
         protected override Result RunCommand(RhinoDoc doc, RunMode mode)
         {
