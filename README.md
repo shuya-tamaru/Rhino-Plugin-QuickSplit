@@ -14,3 +14,6 @@ QuickTrim is a Rhinoceros 8 (Windows) plugin that enables flexible surface trimm
   - Press Enter when point selection is complete
 4. A trimming curve will be automatically generated
 5. Unnecessary surface parts will be removed
+
+## For Rhino7
+[Rhino-Plugin-QuickSplit-ForRhino7](https://github.com/shuya-tamaru/Rhino-Plugin-QuickSplit-ForRhino7)
