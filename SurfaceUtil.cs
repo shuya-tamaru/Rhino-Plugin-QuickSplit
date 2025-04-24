@@ -38,10 +38,7 @@ namespace QuickTrim
 
             if (!originalBrep.IsValid)
                 throw new InvalidOperationException("The extracted Brep is not valid.");
-            RhinoApp.WriteLine($"Plane origin: {plane.Origin}");
-            RhinoApp.WriteLine($"Plane normal: {plane.ZAxis}");
-            RhinoApp.WriteLine($"Plane X axis: {plane.XAxis}");
-            RhinoApp.WriteLine($"Plane Y axis: {plane.YAxis}");
+
 
             return (originalBrep, surfaceRef, plane);
         }
