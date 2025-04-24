@@ -14,7 +14,7 @@ namespace QuickTrim
 
         public static QuickTrimCommand Instance { get; private set; }
 
-        public override string EnglishName => "QuickSplit";
+        public override string EnglishName => "QuickTrim";
 
         protected override Result RunCommand(RhinoDoc doc, RunMode mode)
         {
