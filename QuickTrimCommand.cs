@@ -22,7 +22,7 @@ namespace QuickSplit
             try
             {
                 var (originalBrep, surfaceRef, plane) = SurfaceUtil.GetSurfaceAndPlane(doc);
-                var (selectedPoints, pointGuids) = SelectPointsInPlane.SelectPoints(doc, plane);
+                var (selectedPoints, pointGuids, lineGuids) = SelectPointsInPlane.SelectPoints(doc, plane);
                 var (curve, curveGuid) = CreateCutter.GetCutterCurve(doc, selectedPoints);
 
                 Brep cutterBrep = Brep.CreatePlanarBreps(curve, doc.ModelAbsoluteTolerance)[0];
@@ -38,7 +38,7 @@ namespace QuickSplit
 
                 }
 
-                CleanUpDocument.DeleteObjects(doc, pointGuids, curveGuid, surfaceRef);
+                CleanUpDocument.DeleteObjects(doc, pointGuids, lineGuids, curveGuid, surfaceRef);
 
                 doc.Views.Redraw();
                 RhinoApp.WriteLine("Finish");

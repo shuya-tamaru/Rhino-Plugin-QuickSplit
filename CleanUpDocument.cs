@@ -7,9 +7,14 @@ namespace QuickSplit
 {
     public class CleanUpDocument
     {
-        public static void DeleteObjects(RhinoDoc doc, List<Guid> pointGuids, Guid curveGuid, ObjRef surfaceRef)
+        public static void DeleteObjects(RhinoDoc doc, List<Guid> pointGuids,List<Guid> lineGuids, Guid curveGuid, ObjRef surfaceRef)
         {
             foreach (Guid guid in pointGuids)
+            {
+                doc.Objects.Delete(guid, true);
+            }
+
+            foreach (Guid guid in lineGuids)
             {
                 doc.Objects.Delete(guid, true);
             }
